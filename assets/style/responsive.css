@@ -1,0 +1,60 @@
+@media (max-width: 740px)  {
+  
+    #header {
+        display: block;
+        overflow: hidden;
+    }
+    .nav {
+        display: block;
+    }
+    .nav > li {
+        display: block ;
+        width: 100%;
+    }  
+    .col-third {
+        width: 100% ;
+    }
+    .theband-img {
+        width: 205px ;
+    }
+    .slider-info {
+        display: none;
+    }
+    .tourdates-photos {
+   
+        width: 100%; }
+    
+    .row {
+        display: block;
+    }
+    .col-half {
+        width: 100%;
+    }
+    .contact-input-form {
+        margin-top: 10px;
+    }
+    .ti-search {
+        display: none;
+    }
+    .ti-menu {
+        display: block
+    }
+    .search-btn {
+        padding: 16px 24px;
+        position: relative;
+        top: -227px;
+    }
+    .sub-navbar {
+        display: none;
+    }
+}
+@media (min-width:1024px) {
+    .ti-menu     {
+        display: none;
+    }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+    .ti-menu {
+        display: none;
+    }
+}
