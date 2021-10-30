@@ -26,6 +26,45 @@
     padding: 1px 8px;
     text-align: center;
 }
+
+.slider {
+
+}
+.slider-img {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+.jane-content {
+    position: absolute;
+    top: 54%;
+    color: #fff;
+    padding: 12px 24px;
+}
+.jane-heading {
+           margin: 62px 0;
+        font-size: 4.2rem;
+        letter-spacing: 5px;
+        font-family: "Oswald";
+}
+.jane-blog {
+          margin: 20px 0;
+        font-size: 4.7rem;
+        margin-top: 67px;
+        font-weight: bolder;
+        font-family: "Oswald";
+}
+.jane-btn {
+    padding: 14px 26px;
+    margin-top: 33px;
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+    font-size: 1.9rem;
+}
+.jane-btn:hover {
+    opacity: 0.9;
+}
 .title-container {
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
 }
@@ -227,4 +266,38 @@
 }
 .footer-btn-next:hover {
     background-color: #ccc;
+}
+.modal-body-container {
+    padding: 24px 16px;
+}
+.modal-heading {
+    letter-spacing: 4px;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.modal-sub {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.modal-btn {
+    border: none;
+    width: 100%;
+    padding: 18px 0;
+    margin-top: 22px;
+    font-size: 1.8rem;
+    color: #fff;
+    background-color: #f44336;
+    cursor: pointer;
+    outline: none;
+}
+.modal-btn:hover {
+    background-color: #ccc;
+}
+.modal-email { 
+    width: 95%;
+    padding: 12px 19px;
+    display: block;
 }

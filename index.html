@@ -15,13 +15,23 @@
 
             <header id="header">
                 <h1 class="header_heading">
-                   MY BLOG
+                   JANE BLOGLIFE
                 </h1>
                 <p class="header_sub-heading">
-                    Welcome to the blog of <span class="header__unknown">Hong Hanh</span>
+                    Welcome to the blog of <span class="header__unknown">Jane</span>
                 </p>
             </header>
-    
+            
+
+            <div class="slider">
+                <img src="./assets/img/jane.jpg" alt="" class="slider-img">
+                <div class="jane-content">
+                    <h1 class="jane-heading">Jane's</h1>
+                    <h1 class="jane-blog">FASHION BLOG</h1>
+                    <button class="jane-btn js-jane-btn">SUBSCRIBE</button>
+                </div>
+            </div>
+
             <div id="content">
                 <div class="grid">
                     <div class="grid_row">
@@ -243,6 +253,60 @@
               Next
             </button>
         </div>
+
+        <div class="modal">
+            <div class="modal_overlay">
+                <div class="modal_body">
+                    <div class="modal-body-container">
+                        <div class="modal-header">
+                            <div class="modal-heading">SUBSCRIBE</div>  
+                        </div>
+                        <div class="modal-body-container-content">
+
+                            <div class="modal-body-content">
+                                <p class="modal-sub">Join my mailing list to receive updates on the latest blog posts and other things.
+        
+                                </p>
+                                <input type="email" name="" class="modal-email" required placeholder="Enter e-mail"  id="">
+        
+                                <button class="modal-btn">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </div>
+                     
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+            const subBtn = document.querySelector('.js-jane-btn')
+            const modal = document.querySelector('.modal')
+            const modalOverLay = document.querySelector('.modal_overlay')
+            const modalContainer = document.querySelector('.modal_body')
+            const subscribeBtn = document.querySelector('.modal-btn')
+            function showModal() {
+                modal.classList.add('open')
+            }
+            function closeModal() {
+                modal.classList.remove('open')
+            }
+            function stopCloseModal() {
+                event.stopPropagation()
+            }
+            
+            subBtn.addEventListener('click', showModal)
+            modalOverLay.addEventListener('click', closeModal)
+            modalContainer.addEventListener('click', stopCloseModal)
+            subscribeBtn.addEventListener('click', closeModal)
+        </script>
+
+
+
 
     </div>
 </body>

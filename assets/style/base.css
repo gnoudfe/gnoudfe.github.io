@@ -22,7 +22,7 @@ html {
     margin-left: -16px;
     margin-right: -16px;
     display: flex;
-  
+    margin-top: 35px;
 }
 .grid__6-col {
     width: 65%;
@@ -34,4 +34,54 @@ html {
     margin-left: 16px;
     margin-right: 16px;
   
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    animation: fadeIn ease 0.6s;
+}
+.open {
+    display: block;
+}
+.modal_overlay {
+    width: 100%;
+    display: flex;
+    height: 100%;
+}
+.modal_body {
+    width: 904px;
+    height: 294px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 128px;
+    padding: 32px 32px 8px 32px;
+}
+.modal-body-container {
+    padding: 24px 16px;
+}
+.modal-heading {
+    letter-spacing: 4px;
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.modal-sub {
+    font-size: 1.6rem;
+    line-height: 1.4;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
