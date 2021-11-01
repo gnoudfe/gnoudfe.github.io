@@ -1,14 +1,11 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: inherit;
-}
-
-html {
-    font-size: 62.5%;
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.6rem;
     box-sizing: border-box;
+
+}
+html {
+    font-family: 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
 }
 .grid {
@@ -16,45 +13,30 @@ html {
     max-width: 100%;
     margin: 0 auto;
 }
+.grid__half {
+    width: 50%;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
 .grid_row {
     display: flex;
-    margin-left: -20px;
-    margin-right: -20px;
-    flex-wrap: wrap;
+    
 }
-.grid_col-2 {
-    width: 22%;
-    overflow-y: auto;
-    height: 100vh;
-}
-.grid_col-8 {
-    width: 78%;
-    padding: 0 20px;
-}
-.grid_col-2-4 {
-    width: 24.75%;
-    padding-left: 20px;
-    padding-right: 10px;
-}
-.grid_col-3-8 {
-    width: 33%;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-@keyframes fadeIn {
+@keyframes fade {
     from {
         opacity: 0;
-        transform: scale(0);
+        transform: translateY(-55px)
     }
     to {
         opacity: 1;
-        transform: scale(1);
+        transform: translateY(0)
+
     }
 }
-@keyframes modalFade {
+@keyframs easeIn {
     from {
-        opacity : 0;
-
+        opacity:0;
     }
     to {
         opacity: 1;

@@ -1,0 +1,47 @@
+@media (max-width:740px) {
+    #header {
+        display: block;
+
+    }
+    .header__gourmet-catering {
+        margin-left: 0px;
+        padding: 20px 16px;
+    }
+    .header__info-container {
+        display: none;
+    }
+    .content_img {
+        display: none;
+    }
+    .slider-section {
+        display: none;
+    }
+    .grid_row {
+        display: block;
+    }
+    .grid__half {
+       width: 86.5%;
+    }
+    .our-menu-img {
+        display: none;
+    }
+    .content_img-container {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+@media (min-width:740px) and (max-width:1023px) {
+    .grid_row {
+        display: block;
+    }
+    .content_catering.grid__half {
+        margin-top: 40px;
+    }
+    .content_img {
+        width: 500px;
+    }
+    .content_img-container {
+        margin-left: 24px;
+        margin-right: 24px
+    }
+}
