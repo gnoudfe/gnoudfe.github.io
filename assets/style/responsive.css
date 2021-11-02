@@ -38,12 +38,25 @@
     }
     .content_catering.grid__half {
         margin-top: 40px;
+        margin:auto;
     }
+
     .content_img {
-        width: 500px;
+        width: 100%;
+        height: 100%;
+        
     }
     .content_img-container {
-        margin-left: 24px;
-        margin-right: 24px
+        margin:auto;
+        padding-left: 20px;
+        padding-right: 20px;
+      
+    }
+    .tablet-contact {
+        padding-bottom: 210px;
+    }
+    .header__info-container {
+        display: flex;
+        align-items: center;
     }
 }
