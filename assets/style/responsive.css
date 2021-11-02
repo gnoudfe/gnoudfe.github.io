@@ -11,10 +11,14 @@
         display: none;
     }
     .content_img {
-        display: none;
+        /* display: none; */
+        width: 100%;
+            height: auto;
     }
     .slider-section {
-        display: none;
+        /* display: none; */
+        width: 100%;
+        height: auto;
     }
     .grid_row {
         display: block;
@@ -22,9 +26,7 @@
     .grid__half {
        width: 86.5%;
     }
-    .our-menu-img {
-        display: none;
-    }
+  
     .content_img-container {
         margin-left: 24px;
         margin-right: 24px;
