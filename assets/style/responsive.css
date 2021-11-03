@@ -69,3 +69,8 @@
         align-items: center;
     }
 }
+@media (min-width:1023px) and (max-width:1365px) {
+    .content_img {
+        height: 100%;
+    }
+}
