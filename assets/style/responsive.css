@@ -73,4 +73,7 @@
     .content_img {
         height: 100%;
     }
+    .contact-tablet {
+        padding-left: 20px;
+    }
 }
